@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#editors
+.vs/
+
 # production
 /build
 

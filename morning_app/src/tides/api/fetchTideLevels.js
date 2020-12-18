@@ -18,12 +18,8 @@ class Tides extends React.Component {
     async componentDidMount() {
         const tidesResponse = await fetch(baseUrl).then(res => res.json())
         const high = tidesResponse.results;
-        this.setState({high})
+        this.setState({ high });
     }
   
-    render: function(){
-        return (
-            <p>My name is {high}.</p>
-        );
-} 
+ 
 }

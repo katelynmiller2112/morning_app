@@ -1,6 +1,6 @@
 import React, { Component }from 'react';
-import sun from './sun';
-import styles  from '../styles/welcom_styles'
+import sun from './sun.svg';
+import styles  from '../styles/welcome_styles.module.css'
 
 class Welcome extends Component {
     render() {

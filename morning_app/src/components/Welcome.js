@@ -5,12 +5,12 @@ import styles  from '../styles/welcome_styles.module.css'
 class Welcome extends Component {
     render() {
         return (
-            <header className="Welcome">
+            <body className={styles.Welcome }>
                 <img src={sun} className="sun_logo" alt="sun" />
-                <p className = {styles}>
+                <p className = {styles.p}>
                     Good Morning
                 </p>
-            </header>
+                </body>
         );
     }
 }

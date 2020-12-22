@@ -1,0 +1,9 @@
+import React from 'react';
+import Card from '@material-ui/core/Card';
+
+class astrologyCard extends Component {
+
+
+}
+
+export default astrologyCard;

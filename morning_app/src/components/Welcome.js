@@ -6,12 +6,27 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core/Box';
 import { Fade } from 'react-awesome-reveal';
 import LandingScreen from './LandingScreen';
+import {
+    TransitionGroup,
+    CSSTransition
+  } from "react-transition-group";
+  import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect,
+    useLocation,
+    useParams
+  } from "react-router-dom"; 
+
 
 class Welcome extends Component {
     render() {
         return (
-            <Container  maxwidth= "xl" className={styles.Welcome}>
-                <img src={sun} className="sun_logo" alt="sun" />
+            <Container maxwidth="xl" className={styles.Welcome}>
+                
+                <img src={sun} className={ styles.SunSVG}/>
                 <p className = {styles.p}></p>
                 <Fade direction="bottom">
                     <LandingScreen/>

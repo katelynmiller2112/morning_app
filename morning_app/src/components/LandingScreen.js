@@ -11,9 +11,7 @@ class LandingScreen extends Component {
         return (
             <Container>
                 <p>Hello</p>
-            <moonCard>
-
-                </moonCard>
+            <moonCard/>
                 <astrologyCard/>
                 </Container>
         );

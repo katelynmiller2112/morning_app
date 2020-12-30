@@ -4,13 +4,10 @@ const moonURl = "https://api.aerisapi.com/[:endpoint]/[:action]";
 function moonInfo() {
     
   
-
+    return null;
     
 }
 
 
-class moonApi extends Component {
 
-
-}
 export default moonApi;

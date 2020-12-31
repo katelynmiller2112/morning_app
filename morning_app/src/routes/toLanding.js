@@ -13,8 +13,19 @@ import {
   } from "react-router-dom"; 
 
 
-export const LandingScreenLink = () => (
-    <div>
-        <Link to="/landingPage">Start your day</Link>
-    </div>
-)
+function LandingScreen() {
+  return (
+    <LandingScreen/>
+  )
+}
+
+const Routes = () => {
+  return (
+    <Switch>
+      <Route path='/' exact component={LandingScreen} />
+      
+    </Switch>
+  );
+};
+
+export default Routes;

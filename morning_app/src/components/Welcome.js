@@ -6,20 +6,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core/Box';
 import { Fade } from 'react-awesome-reveal';
 import LandingScreen from './LandingScreen';
-import {
-    TransitionGroup,
-    CSSTransition
-  } from "react-transition-group";
-  import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    Redirect,
-    useLocation,
-    useParams
-  } from "react-router-dom"; 
 
+ 
 
 class Welcome extends Component {
     render() {

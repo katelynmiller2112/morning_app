@@ -1,21 +1,13 @@
-import sun from './svgs/sun.svg';
-import {Tides} from './tides/api/fetchTideLevels'
+import { Tides } from './tides/api/fetchTideLevels';
+import  Welcome from './components/Welcome';
 import './App.css';
+import React, { Component } from 'react';
 
 function App() {
-
-  
- 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={sun} className="sun_logo" alt="sun" />
-        <p>
-          Good Morning
-        </p>
-        
-      </header>
-    </div>
+    
+      <Welcome/> 
+    
   );
 }
 

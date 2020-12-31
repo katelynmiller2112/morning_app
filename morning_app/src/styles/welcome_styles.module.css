@@ -1,0 +1,15 @@
+.Welcome {
+  background-color: #22223b;
+  height: max-content;
+  width: max-content;
+}
+
+.SunSVG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: #f2e9e4;
+}
